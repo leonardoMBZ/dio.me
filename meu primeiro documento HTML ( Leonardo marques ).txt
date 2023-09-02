@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+</head>
+<body>
+    <hr>
+    <h1 id="inicil">Bootcamp dio.me </h1>
+    <hr>
+    <h2>indices</h2>
+
+    <ul>
+        <li><a href="#clientes"> são os clientes na web </a></li>
+        <li> <a href="#servidores">Serves na web</a></li>
+        <li> <a href="#linguagem">linguagem de programação</a></li>
+    </ul>
+    <b> <small><i>INTRODUÇÃO AO HTML</i></small></b>
+    <ul>
+        <li><a href="#inspetor">sobre o inspetor</a> </li>
+        <li><a href="#estrutura">sobre a estrutura básica </a></li>
+        <li><a href="#tags">sobre tags </a></li>
+        <li><a href="#text">sobre text</a></li>
+        <li><a href="#listas">listas ordenadas e não ordenadas</a> </li>
+        <li><a href="#links">Links</a></li>
+    </ul> <hr>
+
+    <h2 id="clientes">clientes na web</h2>
+    <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+    <P>De forma mais pratica e rápida eu posso informar que Clientes são os típicos dispositivos
+         conectados à internet dos usuários da web (por exemplo, seu computador conectado ao seu
+          Wi-Fi ou seu telefone conectado à sua rede móvel) e programas de acesso à Web disponíveis
+           nesses dispositivos (geralmente um navegador como Firefox ou Chrome).</P>
+
+    <h2  id="servidores"> Servidores na web</h2>
+    <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+    <p>Um servidor web  é basicamente um programa de computador que entrega a página solicitada 
+        pelo usuário. As máquinas que rodam esse software são chamadas de servidores. Esses 
+        equipamentos são construídos com esse único propósito.
+
+       <p> De forma simples, o usuário consegue por meio de um servidor web a autorização 
+        para acessar uma página na internet pelo seu navegador. 
+        </p>
+        É essa tecnologia, por exemplo, que disponibiliza espaço para hospedar todos 
+        os sites que acessamos diariamente. A hospedagem, portanto, é uma espécie de 
+        aluguel que o dono de um site contrata para armazenar sua página em um servidor.</p>
+    
+        <h2 id="linguagem"> Linguagem de programação </h2>
+        <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+        <p>A linguagem de programação é utilizada para escrever algoritmos (sequências 
+            de passos para a resolver um problema ou realizar uma tarefa) compreensíveis
+             ao computador. Esses algoritmos descrevem ao computador o que ele tem que fazer e como fazer.
+        <p>            Atualmente, existem muitas linguagens que são escritas pelos programadores.
+             Essas linguagens são classificadas em Linguagens de Baixo Nível e Linguagens de Alto 
+             Nível e são utilizadas umas para aplicações gerais, que podem ser utilizadas para vários
+              fins e outras mais específicas, que foram criadas de acordo com algum projeto exclusivo.
+               Existem também as linguagens de nível intermediário que contém características tanto das
+                linguagens de baixo nível, quanto alto nível.</p>
+        </p>
+
+        <hr> <h1>Introdução ao HTML</h1> <hr>
+         
+        
+          <h2 id="inspetor">sobre o inspetor </h2>
+          <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+         <p>A ferramenta de inspecionar elemento é um utilitário que permite visualizar o código-fonte
+             subjacente de qualquer página web. Além disso, você pode usá-la para fazer alterações 
+             temporárias e ver os resultados em tempo real, deixando o código-fonte original intacto. 
+
+          <p></p>  Isso é extremamente útil se você precisa testar uma alteração ou diagnosticar um 
+          problema. Também pode ser de grande valia se você encontrar um site com um recurso de que 
+          goste e estiver curioso para saber como ele foi implementado.</p>
+        
+        
+          <h2 id="estruturabasica">sobre a estrutura básica </h2>
+          <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+           <p>Sempre que iniciamos um novo arquivo, a primeira coisa a fazer é escrever a estrutura HTML.
+             Trata-se de algumas tags que todos os documentos HTML devem ter. Alguns desenvolvedores 
+             costumam ter um arquivo HTML já salvo para utilizar e poupar o trabalho de ficar escrevendo
+              as mesmas tags toda vez que for criar um HTML novo.
+
+            Vamos ao código da estrutura:
+            
+          <p> head> /head> body /body> /html>  </p>
+            
+               
+        <h2 id="tags">sobre tags </h2>
+        <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+        <p>As tags, em nossos códigos de HTML, possuem significado semelhante, elas servem para alertar
+             o browser para uma maneira de interpretar aquela informação: “Hey, navegador, pegue a próxima
+              informação e exiba da seguinte maneira”.
+
+          <p>  Uma tag que sua mãe poderia deixar seria: compre o leite.
+            Pronto, agora você já sabe como interpretar aquela informação (dinheiro deixado em cima da mesa): 
+            para comprar leite.</p>
+            
+           <p> Definição das tags em HTML: < > e </ >
+            As tags em HTML têm a mesma função do recado de sua mãe: é um recado sobre a maneira que o navegador
+             deve interpretar e exibir um determinado trecho do seu código.</p>
+        </p>
+
+          <h2 id="text">sobre text</h2>
+          <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+         <p>Um dos resumos básicos sobre texto no html e Um dos principais objetivos do HTML é dar estrutura
+             de texto e significado, também conhecido como semântica), para que um navegador possa exibi-lo 
+             corretamente. Este artigo explica a forma como HTML pode ser usado para estruturar uma página 
+             de texto, adicionar títulos e parágrafos, enfatizar palavras, criar listas e muito mais.</p>
+         <p>Exemplos de textos no html </p>
+            <table align="center">
+            <td><h1>H</h1></td>
+            <td><h2>H</h2></td>
+            <td><h3>H</h3></td>
+            <td><H4>H</H4></td>
+            <td><H5>H</H5></td>
+            <td><H6>H</H6></td>
+            <p>Um breve exemplo dos tamanhs das tags (H) com a sequencia <mark> H1, H2, H3, H4, H5, H5, H6</p></mark>
+        </table>   
+
+        
+          <h2 id="listas">listas ordenadas e não ordenadas </h2>
+          <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+         <p>A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os 
+            itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada
+             coloca marcadores antes de cada elemento.</p>
+             <div>
+                <h2>listas não ordenadas </h2>
+                <ul>
+                    <li>Lista1</li>
+                    <li>Lista2</li>
+                    <li>Lista3</li>
+                </ul>
+             </div>
+
+             <div>
+                  <h2>listas  ordenadas </h2>
+                   <ol>
+                     <li>Lista1</li>
+                     <li>Lista2</li>
+                    <li>Lista3</li>
+                  </ol>
+             </div>
+            
+
+        
+          <h2 id="links">Links</h2>
+          <small><a href="#inicil"><mark>VOLTAR</mark></a></small>
+          <p>Desde a origem da internet, o que torna a web o que ela é hoje é justamente a possibilidade de vincular um documento a qualquer outro documento ou recurso. Essa função é chamada de hiperlink ou link. Mas afinal de contas, o que são os links HTML?
+
+            O link HTML, nada mais é que uma função do HTML que permite inserir os hiperlinks em diversos elementos, como textos e imagens. Um link precisa sempre apontar para uma URL (endereço) existente em seu site. Caso contrário, você poderá obter uma mensagem de erro 404.
+            
+            A tag link do HTML está presente desde a primeira versão, criada por Tim Berners-Lee.</p>
+
+
+</body>
+</html>
